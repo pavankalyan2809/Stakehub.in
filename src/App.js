@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Stake Hub</h1>
+      <h1>Order Management System</h1>
       <OrderForm fetchOrders={fetchOrders} />
       <h2>Pending Orders</h2>
       <OrdersTable orders={pendingOrders} />
